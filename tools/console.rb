@@ -12,7 +12,7 @@ uHealth = Startup.new("Nike", "Steve", "health")
 
 
 vc1 = VentureCapitalist.new("Bashir", 1000000000)
-vc2 = VentureCapitalist.new("Mousa", 2000000000)
+vc2 = VentureCapitalist.new("Joe", 2000000000)
 
 #startup, venture_capitalist, type, investment
 fr1 = FundingRound.new(facebook, vc1, "Angel", 500.00)
