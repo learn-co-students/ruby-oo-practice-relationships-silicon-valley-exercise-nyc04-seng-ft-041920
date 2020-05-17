@@ -39,12 +39,10 @@ rod = VentureCapitalist.new("ROD", 1900800700)
 # Angel, Pre-Seed, Seed
 # MARLON
 round_1 = FundingRound.new(apple, marlon, "PRE-SEED", 4300200.0)
-# MARCELO
 round_4 = FundingRound.new(uber, marlon, "SEED", 1200300.0)
 # ISABEL
-round_5 = FundingRound.new(microsoft, isabel, "ANGEL", 10900800.0)
-round_6 = FundingRound.new(apple, isabel, "ANGEL", 2700600) # WILL NOT WORK
-
+round_5 = FundingRound.new(uber, isabel, "ANGEL", 10900800.0)
+# round_6 = FundingRound.new(apple, isabel, "ANGEL", 2700600) # WILL NOT WORK
 # MARCIO
 # round_9 = FundingRound.new(apple, marcio, "ANGEL", -9000000.0) # WILL NOT WORK
 
@@ -120,8 +118,7 @@ puts "****************************************"
 puts ""
 puts "      Startup.sing_contract"
 puts "------------------------------------"
-# uber.sign_contract(marcio, "SEED", 100200.0)
-uber.sign_contract(marlon, "SEED", 100200.0)
+uber.sign_contract(marcio, "SEED", 100200.0)
 puts ""
 uber.sign_contract(marcelo, "ANGEL", 1200300.0)
 puts ""
@@ -151,14 +148,16 @@ puts "  VentureCapitalist.offer_contract"
 puts "------------------------------------"
 # (startup, type, amount)
 p marcio.offer_contract(amazon, "PRE-SEED", 1500400.0)
+p marcio.offer_contract(amazon, "ANGEL", 2400400.0)
+p marcio.offer_contract(microsoft, "ANGEL", 100400.0)
 puts ""
 p marlon.offer_contract(amazon, "SEED",  1200300.0)
 puts ""
-p marcelo.offer_contract(apple, "ANGEL", 1500400300.0)
+# p marcelo.offer_contract(apple, "ANGEL", 1500400300.0)
 puts ""
-p marcio.offer_contract(apple, "SEED", 2500400.0)
+# p marcio.offer_contract(apple, "SEED", 2500400.0)
 puts ""
-p marcio.offer_contract(microsoft, "ANGEL", 100000.0)
+# p marcio.offer_contract(microsoft, "ANGEL", 100000.0)
 puts ""
 puts "==================================="
 puts "  VentureCapitalist.funding_rounds"

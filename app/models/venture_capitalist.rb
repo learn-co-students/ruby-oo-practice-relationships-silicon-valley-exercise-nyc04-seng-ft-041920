@@ -64,7 +64,7 @@ class VentureCapitalist
 
   # - Given a **domain string**, returns the total amount invested in that domain
   def invested(domain)
-    funding_rounds.reduce(0) { |sum, value| value.startup.domain == domain ? sum + value.investment : 0}
+    funding_rounds.reduce(0) { |sum, value| value.startup.domain == domain ? sum + value.investment : sum}
   end
 
 end
