@@ -45,7 +45,8 @@ class VentureCapitalist
     # this is so ugly and i don't care
     # no i do actually
     # don't judge me
-    FundingRound.all.select {|fr| fr.venture_capitalist == self && fr.startup.domain == str}.reduce(0) {|total, sum| total + sum.investment}
+    # FundingRound.all.select {|fr| fr.venture_capitalist == self && fr.startup.domain == str}.reduce(0) {|total, sum| total + sum.investment}
+    vc_helper.select {|fr| fr.startup.domain == str}.reduce(0) {|total, sum| total + sum.investment}
   end
 
 end
