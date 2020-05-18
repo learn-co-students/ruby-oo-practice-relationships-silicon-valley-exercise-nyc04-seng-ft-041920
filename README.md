@@ -5,6 +5,9 @@ Welcome to Silicon Valley! For this assignment, our domain is the startup world!
 If you are not sketching out your domain, and thinking about single source of truth,
 you are doing it wrong :(
 
+#Has many relationship
+Startup -< FundingRound >-VentureCapitalist
+
 ## Topics
 
 - Classes vs Instances
