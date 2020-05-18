@@ -71,7 +71,7 @@ We've provided you with a console that you can use to test your code. To enter a
 - `FundingRound#type`
   - returns a **string** that is the type of funding round
   - Examples include: Angel, Pre-Seed, Seed, Series A, Series B, Series C, etc.
-- `FundingRound#investment`
+- `FundingRound#investment` ccc
   - returns a **number** that is the amount invested during this funding round
   - This should be a float that is not a negative number.
 - `FundingRound.all`
@@ -83,7 +83,7 @@ We've provided you with a console that you can use to test your code. To enter a
 
 #### Startup
 
-- `Startup#sign_contract`
+- `Startup#sign_contract`CCCCC add is_type and is_float
   - given a **venture capitalist object**, type of investment (as a string), and the amount invested (as a float), creates a new funding round and associates it with that startup and venture capitalist.
 - `Startup#num_funding_rounds`
   - Returns the total number of funding rounds that the startup has gotten
