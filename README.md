@@ -2,6 +2,8 @@
 
 Welcome to Silicon Valley! For this assignment, our domain is the startup world! We have three models - `Startup`, `VentureCapitalist`, and `FundingRound`. A `Startup` has many `VentureCapitalist`s through `FundingRound`s.
 
+staratups >- FundingRound -< venture capitalists
+
 If you are not sketching out your domain, and thinking about single source of truth,
 you are doing it wrong :(
 
@@ -26,25 +28,25 @@ We've provided you with a console that you can use to test your code. To enter a
 ### Basic Class Methods and Properties
 
 #### Build the following methods on the `Startup` class
-
+<!-- 
 - `Startup#name`
   - returns a **string** that is the startup's name
 - `Startup#founder`
   - returns a **string** that is the founder's name
   - Once a startup is created, the founder cannot be changed.
 - `Startup#domain`
-  - returns a **string** that is the startup's domain
-- `Startup#pivot`
+  - returns a **string** that is the startup's domain -->
+<!-- - `Startup#pivot`
   - given a string of a **domain** and a string of a **name**, change the domain
     and name of the startup. This is the only public method through which the
-    domain should be changed.
-- `Startup.all`
-  - should return **all** of the startup instances
-- `Startup.find_by_founder`
+    domain should be changed. -->
+<!-- - `Startup.all`
+  - should return **all** of the startup instances -->
+<!-- - `Startup.find_by_founder`
   - given a string of a **founder's name**, returns the **first startup** whose founder's name matches
 - `Startup.domains`
-  - should return an **array** of all of the different startup domains
-
+  - should return an **array** of all of the different startup domains -->
+<!-- 
 ---
 
 #### Build out the following methods on the `VentureCapitalist` class
@@ -56,7 +58,7 @@ We've provided you with a console that you can use to test your code. To enter a
 - `VentureCapitalist.all`
   - returns an array of all venture capitalists
 - `VentureCapitalist.tres_commas_club`
-  - returns an array of all venture capitalists in the Trés Commas club (they have more then 1,000,000,000 `total_worth`)
+  - returns an array of all venture capitalists in the Trés Commas club (they have more then 1,000,000,000 `total_worth`) -->
 
 ---
 
