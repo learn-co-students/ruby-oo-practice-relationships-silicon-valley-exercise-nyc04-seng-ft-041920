@@ -1,6 +1,5 @@
 class FundingRound
-    attr_reader :startup, :venture_capitalist, :type 
-    attr_accessor :investment
+    attr_reader :startup, :venture_capitalist, :type, :investment
 
     @@all = []
 
@@ -10,12 +9,6 @@ class FundingRound
         @investment = ask_float(investment)
         @type = ask_type(type)
         @@all << self
-    end
-
-    def investment
-        @@all.map{|funding|
-            funding.investment if funding.type == self.type
-        }.compact.reduce(:+)
     end
 
     def self.all

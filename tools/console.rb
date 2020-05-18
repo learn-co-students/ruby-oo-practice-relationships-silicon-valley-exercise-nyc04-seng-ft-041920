@@ -32,6 +32,7 @@ elon_musk = VentureCapitalist.new("Elon Reeve Musk", 1337800851337422713371153)
 jonathan_Dean = VentureCapitalist.new("Jonathan Thomas Dean", 0)
 
 ## FundingRound
+ya_boi = FundingRound.new(sabejo, jonathan_Dean, "Series B", 80000000000000000000001)
 zuck_boi = FundingRound.new(facebook, mark_zuckerberg, "Series A", 801)
 cohen_bros = FundingRound.new(facebook,cohen_brothers, "Series A", 27294344)
 apple_book = FundingRound.new(facebook, apple, "Series B", 32423444)
@@ -43,7 +44,6 @@ the_Musk = FundingRound.new(neura_link, elon_musk, "Series B", 1337801)
 krusty_doodle = FundingRound.new(krusty_krab, doodle_bob, "Series A", 1)
 krusty_zuck = FundingRound.new(krusty_krab, mark_zuckerberg, "Series B", 100000000)
 musk_bob = FundingRound.new(neura_link, doodle_bob, "Series A", 1)
-ya_boi = FundingRound.new(sabejo, jonathan_Dean, "Series B", 80000000000000000000001)
 
 # #Incorrect
 # ## Startup

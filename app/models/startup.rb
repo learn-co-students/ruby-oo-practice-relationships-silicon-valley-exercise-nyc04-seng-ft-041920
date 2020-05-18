@@ -27,7 +27,7 @@ class Startup
     end
 
     def sign_contract(venture_capitalist, investment_type, investment_amount)
-        FundingRound.new(self, venture_capitalist,  ask_type(investment_type), ask_float(investment_amount))
+        FundingRound.new(self, venture_capitalist, ask_type(investment_type), ask_float(investment_amount))
     end
 
     def num_funding_rounds

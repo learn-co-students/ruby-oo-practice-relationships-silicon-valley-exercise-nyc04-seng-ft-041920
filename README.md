@@ -83,7 +83,7 @@ We've provided you with a console that you can use to test your code. To enter a
 
 #### Startup
 
-- `Startup#sign_contract`CCCCC add is_type and is_float
+- `Startup#sign_contract`
   - given a **venture capitalist object**, type of investment (as a string), and the amount invested (as a float), creates a new funding round and associates it with that startup and venture capitalist.
 - `Startup#num_funding_rounds`
   - Returns the total number of funding rounds that the startup has gotten
